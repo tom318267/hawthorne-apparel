@@ -7,8 +7,12 @@ const Item = ({ name, price, img }) => {
   }, []);
   return (
     <div data-aos="fade-up" className="p-10">
-      <div className="max-w-xs rounded overflow-hidden shadow-lg font-quest">
-        <img className="w-full" src={img} alt="Mountain" />
+      <div className="max-w-xs min-h-full rounded overflow-hidden shadow-lg font-quest">
+        <img
+          className="w-full h-screen object-cover"
+          src={img}
+          alt="Mountain"
+        />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{name}</div>
           <p className="text-gray-700 text-base mb-2">
