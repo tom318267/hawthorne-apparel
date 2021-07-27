@@ -16,7 +16,12 @@ const Item = ({ name, price, img }) => {
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
             exercitationem praesentium nihil.
           </p>
-          <p className="font-bold">${price}</p>
+          <div className="flex items-center">
+            <p className="font-bold mr-4">${price}</p>
+            <button className="bg-black p-2 text-white rounded-full text-xs">
+              Add to Cart
+            </button>
+          </div>
         </div>
       </div>
     </div>
