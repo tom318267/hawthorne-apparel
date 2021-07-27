@@ -19,6 +19,10 @@ module.exports = {
         home: "url('./assets/homepage.svg')",
         clearance: "url('./assets/clearance.svg')",
       }),
+      height: {
+        imagevh: "50vh",
+        mdimagevh: "70vh",
+      },
     },
   },
   variants: {

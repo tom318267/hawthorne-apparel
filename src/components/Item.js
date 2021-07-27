@@ -9,7 +9,7 @@ const Item = ({ name, price, img }) => {
     <div data-aos="fade-up" className="p-10">
       <div className="max-w-xs min-h-full rounded overflow-hidden shadow-lg font-quest">
         <img
-          className="w-full h-screen object-cover"
+          className="w-full h-imagevh sm:h-mdimagevh object-cover"
           src={img}
           alt="Mountain"
         />
