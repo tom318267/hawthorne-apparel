@@ -7,6 +7,7 @@ module.exports = {
       petrona: ["Petrona", "serif"],
       noto: ["Noto Serif TC", "serif"],
       oran: ["Oranienbaum", "serif"],
+      quest: ["Questrial", "sans-serif"],
     },
     backgroundColor: (theme) => ({
       ...theme("colors"),
@@ -15,6 +16,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         home: "url('./assets/homepage.svg')",
+        clearance: "url('./assets/clearance.svg')",
       }),
     },
   },
