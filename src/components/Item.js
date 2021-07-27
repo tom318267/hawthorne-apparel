@@ -22,7 +22,7 @@ const Item = ({ name, price, img }) => {
           </p>
           <div className="flex items-center">
             <p className="font-bold mr-4">${price}</p>
-            <button className="bg-black p-2 text-white rounded-full text-xs">
+            <button className="bg-black p-2 text-white rounded-full text-xs sm:text-sm">
               Add to Cart
             </button>
           </div>
