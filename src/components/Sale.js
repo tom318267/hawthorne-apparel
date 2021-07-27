@@ -4,7 +4,7 @@ const Sale = () => {
   return (
     <div className="font-quest">
       <div className="w-full flex">
-        <div className="bg-gray-500 py-6 text-lg w-1/2 flex justify-center">
+        <div className="bg-gray py-6 text-lg w-1/2 flex justify-center">
           <h2 className="w-1/4 text-center flex">Suits starting at $100</h2>
         </div>
         <div className="bg-white py-6 text-lg w-1/2 flex justify-center">
