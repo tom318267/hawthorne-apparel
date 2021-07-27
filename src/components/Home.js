@@ -1,5 +1,5 @@
 import React from "react";
-import Sale from "./Sale";
+import New from "./New";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Sale />
+      <New />
     </>
   );
 };
