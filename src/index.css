@@ -22,4 +22,9 @@
     background-color: black;
     color: white;
   }
+
+  .footer-container li {
+    cursor: pointer;
+    margin-bottom: 4px;
+  }
 }
